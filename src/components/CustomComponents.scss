@@ -1,0 +1,69 @@
+$app-green: #30bda0;
+$green-btn-border: #2daa91;
+
+$app-grey: #e7e7e7;
+$grey-btn-border: #a4a4a4;
+
+$black: #000000;
+$white: #ffffff;
+
+.custom-modal-btn {
+  height: 45px;
+  width: 200px;
+  background-color: $app-green;
+  border-radius: 6px;
+  text-align: center;
+
+  color: $white;
+  font-size: 0.75rem;
+  font-weight: bold;
+
+  &:hover,
+  &:focus {
+    height: 45px;
+    width: 200px;
+    background-color: $app-green;
+    border: 1px solid $green-btn-border;
+    border-radius: 6px;
+    text-align: center;
+
+    color: $white;
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+}
+
+.custom-modal-cancel-btn {
+  height: 45px;
+  width: 200px;
+  background-color: $app-grey;
+  border-radius: 6px;
+  text-align: center;
+
+  color: $black;
+  font-size: 0.75rem;
+  font-weight: bold;
+
+  &:hover,
+  &:focus {
+    height: 45px;
+    width: 200px;
+    background-color: $app-grey;
+    border: 1px solid $grey-btn-border;
+    border-radius: 6px;
+    text-align: center;
+
+    color: $black;
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+}
+
+.custom-popover-menu-item, .custom-popover-menu-item:focus {
+  background-color: $white !important;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.custom-popover-menu-item:hover {
+  color: $app-green;
+}
